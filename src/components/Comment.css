@@ -1,0 +1,30 @@
+.Comment{
+    margin: 50px 500px;
+}
+.userInfo{
+    padding-top: 20px;
+    /* padding-left: 90px; */
+    width: 400px;
+    height: 400px;
+    background-color: rgb(104, 15, 15);
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    font-family:cursive;
+    color: aliceblue;
+}
+.Avatar{
+    width: 300px;
+    height: 300px;
+}
+.comment-date{
+    margin-top: 20px;
+    width: 400px;
+    height: 15 0px;
+    background-color: rgb(104, 15, 15);
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    font-family:cursive;
+    color: aliceblue;
+}
