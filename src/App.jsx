@@ -6,6 +6,7 @@ function App() {
     {
       date: new Date(),
       text: "Ты не идеален, но, делая ошибки, ты учишься на них. Мне кажется, настоящая сила заключается в этом.",
+      id:1,
       author: {
         name: "Хината Хьюга",
         avatarUrl:
@@ -14,6 +15,7 @@ function App() {
     },
     {
       date: new Date(),
+      id:2,
       text: "Ты не идеален, но, делая ошибки, ты учишься на них. Мне кажется, настоящая сила заключается в этом.",
       author: {
         name: "Хината Хьюга",
@@ -23,6 +25,7 @@ function App() {
     },
     {
       date: new Date(),
+      id: 3,
       text: "Ты не идеален, но, делая ошибки, ты учишься на них. Мне кажется, настоящая сила заключается в этом.",
       author: {
         name: "Хината Хьюга",
@@ -35,7 +38,7 @@ function App() {
   return (
     <div className="appBlock">
       {comment.map((item) => (
-        <Comment author={item.author} text={item.text} date={item.date} />
+        <Comment key={item.id} author={item.author} text={item.text} date={item.date} />
       ))}
     </div>
   );
